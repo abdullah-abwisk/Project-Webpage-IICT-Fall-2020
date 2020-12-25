@@ -51,6 +51,7 @@ h3 {
 
 }
 .trans_h1{
+  color: #30c54e;
   padding: 0px 0px 0px 500px;
   background-color:rgba(0, 0, 0, 0.5);
   position:relative; bottom:50px;
@@ -66,11 +67,54 @@ h3 {
   border-radius: 0 10px 0 10px;
   position:relative; bottom:60px;
 }
+
+.container {
+  position: relative;
+}
+
+.hover:hover {
+  background-color: rgb(13, 153, 163);
+}
+/* center text */
+.text-block_1 {
+  font-size: x-large;
+  position: absolute;
+  bottom: 300px;
+  right: 600px;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block_2{
+  font-size: x-large;
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block_3{
+  font-size: large;
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 form {
   color:rgb(56, 56, 56);
 }
 .lastline{
-  color: #ddd;
+  color: rgb(114, 213, 89);
+  padding: 10px;
   background-color: rgb(61, 59, 59);
 }
 .profile_pic{
@@ -196,7 +240,11 @@ form {
   width: 50%;
   padding: 5px;
 }
-
+.column2{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
